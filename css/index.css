@@ -1,0 +1,35 @@
+*{padding:0;margin:0}
+body{overflow: hidden;}
+ul{list-style: none;}
+.clear:after{content: "";display: block;clear: both;}
+.l{float: left;}
+img{display: block;}
+
+.goods_k{margin:100px auto;width: 1000px;}
+.goods_k ul{width: 100%;}
+.goods_k ul li{width: 200px;height: 180px;padding: 10px;border-right: 1px solid black;
+margin:10px;}
+.goods_k ul img{width: 100%;height: 100%;}
+.goods_k ul img:hover{transform: rotate(360deg);transition: 0.5s ease-in-out;}
+.goods_k .goods_title p{text-align: center;font-size: 16px;color: burlywood;
+cursor: pointer;display: block;}
+.goods_k .goods_btn{margin: 3px auto;background-color: crimson;color: white;
+text-align: center;font-weight: bolder;cursor: pointer;}
+.gwc_r{width: 300px;height: 100%;border-left: 2px solid black;top:0;
+position: absolute;right: -300px;}
+.gwc_r .gwc_s{width: 60px;height: 60px;position: relative;top:40%;left: -60px;
+background-color: cornflowerblue;}
+.gwc_r .gwc_s .gwc_n{width: 30px;height: 30px;border-radius: 50%;background-color: crimson;
+color: white;position: absolute;top:-25%;left:25%;text-align: center;}
+.gwc_r ul{width: 280px;top:5px;right: -20px;position: absolute;}
+.gwc_r ul li{width: 250px;height: 160px;margin-bottom: 15px;}
+.gwc_r ul img{width: 100%;height: 100%;}
+.gwc_r ul .gwcl_btn{background-color: sienna;color: white;width: 50px;height: 30px;
+line-height: 30px;text-align: center;cursor: pointer;}
+.gwc_r ul .gwcl_msg{font-size: 15px;height: 20px;line-height:20px;float: right;margin-top: 5px;}
+.gwc_r ul .gwcl_delbtn{background-color:red;color: white;width: 50px;height: 30px;
+line-height: 30px;text-align: center;cursor: pointer;}
+.gwc_r ul button{width: 20px;height: 20px;margin-top: 5px;}
+.gwc_r ul button{float: right;}
+#ball{position: absolute;top:0;left: 0;background-color: skyblue;display: none;
+opacity: 0.6;border-radius: 50%;width: 30px;height: 30px;}
